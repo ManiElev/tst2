@@ -127,10 +127,10 @@ fullscreen = 0
 # (str) ANT directory (if empty, it will be automatically downloaded.)
 #android.ant_path =
 
-(bool) If True, then skip trying to update the Android sdk
+#(bool) If True, then skip trying to update the Android sdk
 # This can be useful to avoid excess Internet downloads or save time
 # when an update is due and you just want to test/build your package
-android.skip_update = True
+#android.skip_update = True
 
 (bool) If True, then automatically accept SDK license
 # agreements. This is intended for automation only. If set to False,
@@ -321,7 +321,7 @@ android.allow_backup = True
 #p4a.fork = kivy
 
 # (str) python-for-android branch to use, defaults to master
-p4a.branch = develop
+p4a.branch = master
 
 # (str) python-for-android specific commit to use, defaults to HEAD, must be within p4a.branch
 #p4a.commit = HEAD
